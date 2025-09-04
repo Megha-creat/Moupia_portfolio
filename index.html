@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-barba="wrapper">
+  <header class="navbar">
+    <nav>
+  <div class="nav-left">
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <span class="brand">Moupia Dutta</span>
+  </div>
+
+  <div class="nav-right">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skill">Skills</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</div>
+<button class="toggle-btn" onclick="document.body.classList.toggle('dark-mode')">
+  🌙 Toggle
+</button>
+
+  </nav>
+  
+</header>
+
+  <main data-barba="container" data-barba-namespace="home">
+   <section id="home" class="home-section">
+  <div class="home-left">
+    <img src="mou6.jpg" alt="Profile Picture" class="profile-pic">
+  </div>
+
+  <div class="home-right">
+    <h1 class="intro-title">Hello, I'm <span class="highlight">Moupia Dutta</span></h1>
+    <h2 class="animated-text">I am a <span class="changing-text"></span></h2>
+    <p class="intro-desc">
+      A passionate <b>dancer</b> and <b>model</b> blending art and elegance ✨  
+      Explore my journey through creativity and performance.
+    </p>
+    <div class="cta-buttons">
+      <a href="#gallery" class="btn primary-btn">View Gallery</a>
+      <a href="#contact" class="btn secondary-btn">Contact Me</a>
+    </div>
+  </div>
+</section>
+<section id="about" class="about-section container">
+    <div class="about-content">
+      <!-- Dance Image / Logo -->
+      <div class="about-image">
+        <img src="mou2.jpg" alt="Dance Illustration" />
+      </div>
+
+      <!-- About Text --> 
+      <div class="about-text">
+  <h1>About Me</h1>
+  <p>
+    Since childhood, dance has been my heartbeat. I am <strong>Moupia</strong>, 
+    a passionate <em>dancer</em> and <em>model</em>, whose journey began with 
+    the rhythms of Indian classical art forms. What started as simple steps 
+    soon grew into a lifelong devotion to movement and expression.
+  </p>
+  <p>
+    Over the years, I trained in <strong>Bharatnatyam</strong> and <strong>Odissi</strong>, 
+    two of India’s most profound classical dance traditions. Along the way, 
+    I embraced the joy of <strong>folk dances</strong> and the creativity of 
+    <strong>contemporary styles</strong>, blending tradition with modern expression.  
+    For me, dance is not just performance — it is a story written in gestures, 
+    rhythm, and emotion.
+  </p>
+  <p>
+    My journey as a <strong>model</strong> began as an extension of my love for art.  
+    Modeling taught me how grace, discipline, and expression can exist not only 
+    on stage but also in front of the camera. Each pose is like a still performance, 
+    capturing confidence, elegance, and emotion in a single frame.
+  </p>
+  <p>
+    Today, I stand at the crossroads of both worlds — dance and modeling — 
+    carrying forward a dream to inspire and connect with people through art.  
+    Whether it is through the powerful storytelling of a classical performance, 
+    the vibrance of folk, or the creativity of a photoshoot, my goal is to share 
+    beauty, culture, and inspiration with everyone I meet.
+  </p>
+</div>
+
+    </div>
+  </section>
+  <section id="skill" class="skills-section">
+    <h1>My Skills</h1>
+    <p class="skills-intro">A perfect balance of traditional dance forms and modern modeling ✨</p>
+
+    <div class="skills-container">
+      <div class="skill">
+        <h2>Dance</h2>
+        <p>Trained in Bharatnatyam, Odissi, Folk, and Creative dance styles. 
+           Known for graceful expressions, rhythm, and captivating stage performances.</p>
+      </div>
+
+      <div class="skill">
+        <h2>Modeling</h2>
+        <p>Experienced in ramp walks, photoshoots, and creative concept modeling. 
+           Skilled in adapting to different fashion styles and stage presence.</p>
+      </div>
+    </div>
+
+    <!-- 🎥 YouTube Channel Showcase -->
+    <div class="youtube-section">
+      <h2>Watch My Performances</h2>
+      <p class="youtube-caption">Explore more dance and modeling performances on my YouTube channel 🎬</p>
+
+      <!-- Featured Video -->
+      <div class="youtube-video">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/videoseries?list=UUhx6GvMzQd-NgyaVAJ01aWw" 
+      title="Mou Pia Dance & Modeling Performances" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="video-caption">🎥 Explore Mou Pia’s full collection of dance and modeling performances on YouTube.</p>
+</div>
+
+
+      <!-- Channel Button -->
+      <div class="youtube-btn">
+        <a href="https://youtube.com/@moupiadutta?si=4sgy6Mu6vkEEDF9x" target="_blank">
+          Visit My YouTube Channel
+        </a>
+      </div>
+    </div>
+
+  </section>
+<section id="gallery" class="gallery-section">
+    <h1>Gallery</h1>
+    <p class="gallery-intro">A glimpse of my journey in dance and modeling ✨</p>
+
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="mou1.jpg" alt="Dance Performance 1">
+      </div>
+      <div class="gallery-item">
+        <img src="mou2.jpg" alt="Dance Performance 2">
+      </div>
+      <div class="gallery-item">
+        <img src="mou3.jpg" alt="Modeling Shoot 1">
+      </div>
+      <div class="gallery-item">
+        <img src="mou4.jpg" alt="Modeling Shoot 2">
+      </div>
+      <div class="gallery-item">
+        <img src="mou5.jpg" alt="Dance Performance 3">
+      </div>
+      <div class="gallery-item">
+        <img src="mou6.jpg" alt="Modeling Shoot 3">
+      </div>
+      <div class="gallery-item">
+        <img src="mou7.jpg" alt="Modeling Shoot 3">
+      </div>
+      <div class="gallery-item">
+        <img src="mou8.jpg" alt="Modeling Shoot 3">
+      </div>
+    </div>
+  </section>
+ <section id="contact" class="contact-section">
+    <div class="contact-container">
+      
+      <!-- Left Side -->
+      <div class="contact-info">
+        <h1>Get in Touch</h1>
+        <p>If you’d like to collaborate, book a performance, or just say hello, feel free to reach out.  
+           I’m always open to new opportunities in dancing and modeling ✨</p>
+        
+        <div class="contact-details">
+          <p><strong>Email:</strong> <a href="mailto:moupiadutt256@gmail.com">moupiadutt256@gmail.com</a></p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Location:</strong> Kolkata, India</p>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form action="mailto:moupiadutt256@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  </main>
+
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
